@@ -1,0 +1,30 @@
+.response{
+    width: 90px;/*45px;*/
+    display: inline;
+    margin-left: 10px;
+}
+body{
+    margin-left: 20px;
+}
+#calculs{
+    margin-top: 15px;
+}
+.calcul-faux::after{
+    content:'\0000A0\0000A0\0000A0X';
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.calcul-juste::after{
+    content:'\0000A0\0000A0\0000A0\002714';
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+#resultat{
+    margin-left: 20px;
+}
+.bravo{
+    font-size: 20px;
+    font-weight: bold;
+}
